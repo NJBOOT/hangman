@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hangman</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
@@ -16,9 +17,9 @@
         <div class="row">
             <div class="col-sm">
                 <p id="word"></p>
-                <p>Guesses Left: <span id="guesses-left"></span></p>
-                <p>Guessed Letters: <span id="guessed"></span></p>
-                <p>Wins: <span id="wins"></span></p>
+                <p><strong>Guesses Left:</strong><span style="margin-left: 5px;" id="guesses-left"> </span></p>
+                <p><strong>Guessed Letters:</strong><span style="margin-left: 5px;" id="guessed"></span></p>
+                <p><strong>Wins:</strong><span style="margin-left: 5px;" id="wins"></span></p>
             </div>
             <div class="col-sm">
                 <img src="assets/hangman.jpg" alt="hangman">
