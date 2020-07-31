@@ -24,7 +24,6 @@ document.onkeyup = function (event) {
         }
         console.log("Letter was in word", isCorrect)
         if (!isCorrect) {
-            console.log("isCorrect = " + isCorrect)
             guessed.push(userGuess)
             document.getElementById("guessed").innerHTML = guessed;
             guessesLeft--;
